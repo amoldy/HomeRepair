@@ -1,14 +1,2 @@
-# SEG2105_J.I.Joe_Repository
-A repository for our SEG2105 project: on-demand home repair services app.
-
-Group members:
-
-Janie Amyot -- 7807073
-
-Alex Moldovan -- 7463817
-
-Andrei Baetica -- 8755885
-
-Iris Abildayeva -- 7655673
-
-Jon Oke -- 7733982
+# CHIPPY_Repository
+A repository for our SEG2105 project(re-upload from group repo): on-demand home repair services app that connects home owners with service providers (electricians, plummers, gardeners etc.) to simply take care of houshold tasks in case of emergencies or providing better services. Service providers can be rated and given feedback on their performence.
