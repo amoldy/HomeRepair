@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ActionBarTheme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/hoBookingsTitle"
+        android:text="Service Providers Found"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/providersList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hoBookingsTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+</RelativeLayout>

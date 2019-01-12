@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.janieamyot.chippy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher02"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher01"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".CreateNewAccount" />
+        <activity android:name=".AdminWelcomePage" />
+        <activity android:name=".HomeOwnerWelcomePage" />
+        <activity android:name=".ServiceProviderWelcomePage" />
+        <activity android:name=".AdminServiceEditor" />
+        <activity android:name=".ServiceProviderProfile" />
+        <activity android:name=".ServiceProviderEditServices" />
+        <activity android:name=".HOSearchResults" />
+        <activity android:name=".ServiceProviderAvailable"></activity>
+    </application>
+
+</manifest>
